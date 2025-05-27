@@ -1,0 +1,19 @@
+{
+  "name": "projectcam",
+  "version": "1.0.0",
+  "description": "Job site photo management tool for construction and trade professionals",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["construction", "photo-management", "job-site", "project-management"],
+  "author": "ProjectCam Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

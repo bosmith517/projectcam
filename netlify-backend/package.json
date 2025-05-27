@@ -1,0 +1,21 @@
+{
+  "name": "projectcam-backend",
+  "version": "1.0.0",
+  "description": "Backend API for ProjectCam application",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "keywords": [
+    "api",
+    "backend",
+    "construction",
+    "photo-management"
+  ],
+  "author": "ProjectCam Team",
+  "license": "MIT"
+}

@@ -1,0 +1,16 @@
+{
+  "template": "node",
+  "container": {
+    "port": 3000,
+    "startScript": "start",
+    "node": "18"
+  },
+  "scripts": {
+    "install": "npm install && cd client && npm install && cd ../server && npm install",
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
+    "build": "cd client && npm run build"
+  },
+  "packages": [
+    "concurrently"
+  ]
+}
