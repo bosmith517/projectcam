@@ -1,20 +1,20 @@
 {
-  "name": "projectcam-backend",
+  "name": "projectcam-netlify-functions",
   "version": "1.0.0",
-  "description": "Backend API for ProjectCam application",
+  "description": "Netlify Functions for ProjectCam backend",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'Build complete'"
+    "build": "echo 'Functions ready'"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2"
   },
   "keywords": [
-    "api",
-    "backend",
-    "construction",
-    "photo-management"
+    "netlify",
+    "functions",
+    "serverless",
+    "authentication"
   ],
   "author": "ProjectCam Team",
   "license": "MIT"

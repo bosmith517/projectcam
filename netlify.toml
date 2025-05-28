@@ -1,10 +1,13 @@
 [build]
-  command = "cd client && npm run build"
+  command = "cd client && npm run build && cd ../netlify-backend && npm install"
   publish = "client/build"
   functions = "netlify-backend/netlify/functions"
 
 [build.environment]
   NODE_VERSION = "18"
+
+[functions]
+  directory = "netlify-backend/netlify/functions"
 
 [[redirects]]
   from = "/api/*"
